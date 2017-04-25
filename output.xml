@@ -1,0 +1,435 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>/Users/amarcozzi/Desktop/BLAST_DB/human_genomic</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>3 dna:chromosome chromosome:GRCh37:3:107477486-107477686</BlastOutput_query-def>
+  <BlastOutput_query-len>201</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>3 dna:chromosome chromosome:GRCh37:3:107477486-107477686</Iteration_query-def>
+  <Iteration_query-len>201</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|568815595|ref|NC_000003.12|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 3, GRCh38.p2 Primary Assembly &gt;gi|568336021|gb|CM000665.2| Homo sapiens chromosome 3, GRCh38 reference primary assembly</Hit_def>
+  <Hit_accession>NC_000003</Hit_accession>
+  <Hit_len>198295559</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.297</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>5.8146e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>107758639</Hsp_hit-from>
+      <Hsp_hit-to>107758839</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_qseq>
+      <Hsp_hseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|568815340|ref|NT_005612.17|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 3 genomic scaffold, GRCh38.p2 Primary Assembly HSCHR3_CTG2_1 &gt;gi|568335765|gb|GL000035.2| Homo sapiens chromosome 3 genomic contig, GRCh38 reference primary assembly</Hit_def>
+  <Hit_accession>NT_005612</Hit_accession>
+  <Hit_len>104529985</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.297</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>5.8146e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>14053065</Hsp_hit-from>
+      <Hsp_hit-to>14053265</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_qseq>
+      <Hsp_hseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|528476658|ref|NC_018914.2|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 3, alternate assembly CHM1_1.1, whole genome shotgun sequence &gt;gi|512322358|gb|CM001611.2| Homo sapiens chromosome 3, whole genome shotgun sequence</Hit_def>
+  <Hit_accession>NC_018914</Hit_accession>
+  <Hit_len>197992941</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.297</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>5.8146e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>107441672</Hsp_hit-from>
+      <Hsp_hit-to>107441872</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_qseq>
+      <Hsp_hseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|528475836|ref|NW_004929311.1|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 3 genomic scaffold, alternate assembly CHM1_1.1, whole genome shotgun sequence &gt;gi|512214809|gb|KE150095.1| Homo sapiens chromosome 3 genomic scaffold, whole genome shotgun sequence</Hit_def>
+  <Hit_accession>NW_004929311</Hit_accession>
+  <Hit_len>100446267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.297</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>5.8146e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>13883113</Hsp_hit-from>
+      <Hsp_hit-to>13883313</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_qseq>
+      <Hsp_hseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|511338059|gb|KE145289.1|</Hit_id>
+  <Hit_def>Homo sapiens unplaced genomic scaffold scaffold308, whole genome shotgun sequence</Hit_def>
+  <Hit_accession>KE145289</Hit_accession>
+  <Hit_len>28813048</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.297</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>5.8146e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>10467856</Hsp_hit-from>
+      <Hsp_hit-to>10468056</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_qseq>
+      <Hsp_hseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|206583738|gb|CM000493.1|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 3, whole genome shotgun sequence</Hit_def>
+  <Hit_accession>CM000493</Hit_accession>
+  <Hit_len>195175025</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.297</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>5.8146e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>104851219</Hsp_hit-from>
+      <Hsp_hit-to>104851419</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_qseq>
+      <Hsp_hseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|317021982|gb|GL582991.1|</Hit_id>
+  <Hit_def>Homo sapiens unplaced genomic scaffold scaffold_11, whole genome shotgun sequence</Hit_def>
+  <Hit_accession>GL582991</Hit_accession>
+  <Hit_len>26869672</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.297</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>5.8146e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>17881063</Hsp_hit-from>
+      <Hsp_hit-to>17880863</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_qseq>
+      <Hsp_hseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|202078607|gb|DS990662.1|</Hit_id>
+  <Hit_def>Homo sapiens SCAF_1112675837338 genomic scaffold, whole genome shotgun sequence</Hit_def>
+  <Hit_accession>DS990662</Hit_accession>
+  <Hit_len>42876814</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.297</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>5.8146e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>33807775</Hsp_hit-from>
+      <Hsp_hit-to>33807575</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_qseq>
+      <Hsp_hseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|157399290|gb|DS486024.1|</Hit_id>
+  <Hit_def>Homo sapiens SCAF_1103279188393 genomic scaffold, whole genome shotgun sequence</Hit_def>
+  <Hit_accession>DS486024</Hit_accession>
+  <Hit_len>42876610</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.297</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>5.8146e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>33807614</Hsp_hit-from>
+      <Hsp_hit-to>33807414</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_qseq>
+      <Hsp_hseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|42412613|gb|CH003498.1|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 3, whole genome shotgun sequence</Hit_def>
+  <Hit_accession>CH003498</Hit_accession>
+  <Hit_len>206053648</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.297</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>5.8146e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>114039239</Hsp_hit-from>
+      <Hsp_hit-to>114039039</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_qseq>
+      <Hsp_hseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|42412563|gb|CH003450.1|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 3, whole genome shotgun sequence</Hit_def>
+  <Hit_accession>CH003450</Hit_accession>
+  <Hit_len>196156484</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.297</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>5.8146e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>105138873</Hsp_hit-from>
+      <Hsp_hit-to>105139073</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_qseq>
+      <Hsp_hseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|74230053|gb|CH471052.2|</Hit_id>
+  <Hit_def>Homo sapiens 211000035835664 genomic scaffold, whole genome shotgun sequence</Hit_def>
+  <Hit_accession>CH471052</Hit_accession>
+  <Hit_len>101945515</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.297</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>5.8146e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>14059430</Hsp_hit-from>
+      <Hsp_hit-to>14059630</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_qseq>
+      <Hsp_hseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|157501124|gb|CM000464.1|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 3, whole genome shotgun sequence</Hit_def>
+  <Hit_accession>CM000464</Hit_accession>
+  <Hit_len>195175600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.297</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>5.8146e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>104850930</Hsp_hit-from>
+      <Hsp_hit-to>104851130</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_qseq>
+      <Hsp_hseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|74273679|gb|CM000254.1|</Hit_id>
+  <Hit_def>Homo sapiens chromosome 3, whole genome shotgun sequence</Hit_def>
+  <Hit_accession>CM000254</Hit_accession>
+  <Hit_len>196588766</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.297</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>5.8146e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>105873760</Hsp_hit-from>
+      <Hsp_hit-to>105873960</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_qseq>
+      <Hsp_hseq>CCCGAGTACTCTTCAGCACCTGGAGGGCACATCCCCTCTGATTAGGTGGCACCCCTGCCTGTTAAATATTTTGAATATCACCCCTGCCTGTGACATCCCCTGAGAATGCCATTGAGTCTTGTGTAGAGTTAACAGTAACAAAGAAAAAAAGAAAAACATAACCTTGGGCAGTTAGTTATACCTCCCCCATTCTGTCTTCTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1903</Statistics_db-num>
+      <Statistics_db-len>40420149728</Statistics_db-len>
+      <Statistics_hsp-len>31</Statistics_hsp-len>
+      <Statistics_eff-space>6871415424950</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
