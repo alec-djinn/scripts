@@ -1,2 +1,2 @@
 # scripts
-a bunch of scripts I have used during my Postdoc at the UMCU
+a bunch of scripts I wrote during my Postdoc at the UMCU
