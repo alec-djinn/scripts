@@ -1,0 +1,22 @@
+{"compile":[
+["/Users/amarcozzi/Desktop/NIM_playground/nimcache/prova.c", "clang -c  -w  -I/Users/amarcozzi/homebrew/Cellar/nim/0.17.0/nim/lib -o /Users/amarcozzi/Desktop/NIM_playground/nimcache/prova.o /Users/amarcozzi/Desktop/NIM_playground/nimcache/prova.c"],
+],
+"link":[
+"/Users/amarcozzi/Desktop/NIM_playground/nimcache/prova.o",
+"/Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_system.o",
+"/Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_strutils.o",
+"/Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_tables.o",
+"/Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_parseopt2.o",
+"/Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_parseutils.o",
+"/Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_math.o",
+"/Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_algorithm.o",
+"/Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_hashes.o",
+"/Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_os.o",
+"/Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_times.o",
+"/Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_posix.o",
+"/Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_ospaths.o",
+"/Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_future.o",
+"/Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_macros.o"
+],
+"linkcmd": "clang   -o /Users/amarcozzi/Desktop/NIM_playground/prova  /Users/amarcozzi/Desktop/NIM_playground/nimcache/prova.o /Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_system.o /Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_strutils.o /Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_tables.o /Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_parseopt2.o /Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_parseutils.o /Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_math.o /Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_algorithm.o /Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_hashes.o /Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_os.o /Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_times.o /Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_posix.o /Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_ospaths.o /Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_future.o /Users/amarcozzi/Desktop/NIM_playground/nimcache/stdlib_macros.o  -lm   -ldl"
+}

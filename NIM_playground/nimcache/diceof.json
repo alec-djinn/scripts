@@ -1,0 +1,36 @@
+{"compile":[
+["/Users/amarcozzi/scripts/NIM_playground/nimcache/diceof.c", "clang -c  -w  -I/Users/amarcozzi/homebrew/Cellar/nim/0.17.0/nim/lib -o /Users/amarcozzi/scripts/NIM_playground/nimcache/diceof.o /Users/amarcozzi/scripts/NIM_playground/nimcache/diceof.c"],
+["/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_system.c", "clang -c  -w  -I/Users/amarcozzi/homebrew/Cellar/nim/0.17.0/nim/lib -o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_system.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_system.c"],
+["/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_strutils.c", "clang -c  -w  -I/Users/amarcozzi/homebrew/Cellar/nim/0.17.0/nim/lib -o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_strutils.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_strutils.c"],
+["/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_tables.c", "clang -c  -w  -I/Users/amarcozzi/homebrew/Cellar/nim/0.17.0/nim/lib -o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_tables.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_tables.c"],
+["/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_parseopt2.c", "clang -c  -w  -I/Users/amarcozzi/homebrew/Cellar/nim/0.17.0/nim/lib -o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_parseopt2.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_parseopt2.c"],
+["/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_parseutils.c", "clang -c  -w  -I/Users/amarcozzi/homebrew/Cellar/nim/0.17.0/nim/lib -o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_parseutils.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_parseutils.c"],
+["/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_math.c", "clang -c  -w  -I/Users/amarcozzi/homebrew/Cellar/nim/0.17.0/nim/lib -o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_math.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_math.c"],
+["/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_algorithm.c", "clang -c  -w  -I/Users/amarcozzi/homebrew/Cellar/nim/0.17.0/nim/lib -o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_algorithm.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_algorithm.c"],
+["/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_hashes.c", "clang -c  -w  -I/Users/amarcozzi/homebrew/Cellar/nim/0.17.0/nim/lib -o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_hashes.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_hashes.c"],
+["/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_os.c", "clang -c  -w  -I/Users/amarcozzi/homebrew/Cellar/nim/0.17.0/nim/lib -o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_os.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_os.c"],
+["/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_times.c", "clang -c  -w  -I/Users/amarcozzi/homebrew/Cellar/nim/0.17.0/nim/lib -o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_times.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_times.c"],
+["/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_posix.c", "clang -c  -w  -I/Users/amarcozzi/homebrew/Cellar/nim/0.17.0/nim/lib -o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_posix.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_posix.c"],
+["/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_ospaths.c", "clang -c  -w  -I/Users/amarcozzi/homebrew/Cellar/nim/0.17.0/nim/lib -o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_ospaths.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_ospaths.c"],
+["/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_future.c", "clang -c  -w  -I/Users/amarcozzi/homebrew/Cellar/nim/0.17.0/nim/lib -o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_future.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_future.c"],
+["/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_macros.c", "clang -c  -w  -I/Users/amarcozzi/homebrew/Cellar/nim/0.17.0/nim/lib -o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_macros.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_macros.c"]
+],
+"link":[
+"/Users/amarcozzi/scripts/NIM_playground/nimcache/diceof.o",
+"/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_system.o",
+"/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_strutils.o",
+"/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_tables.o",
+"/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_parseopt2.o",
+"/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_parseutils.o",
+"/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_math.o",
+"/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_algorithm.o",
+"/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_hashes.o",
+"/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_os.o",
+"/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_times.o",
+"/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_posix.o",
+"/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_ospaths.o",
+"/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_future.o",
+"/Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_macros.o"
+],
+"linkcmd": "clang   -o /Users/amarcozzi/scripts/NIM_playground/diceof  /Users/amarcozzi/scripts/NIM_playground/nimcache/diceof.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_system.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_strutils.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_tables.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_parseopt2.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_parseutils.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_math.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_algorithm.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_hashes.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_os.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_times.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_posix.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_ospaths.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_future.o /Users/amarcozzi/scripts/NIM_playground/nimcache/stdlib_macros.o  -lm   -ldl"
+}
