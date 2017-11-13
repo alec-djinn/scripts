@@ -7,7 +7,7 @@
 #$ -m beas
 
 from __future__ import print_function, division
-import subprocessl
+import subprocess
 
 bin  = '/hpc/cog_bioinf/kloosterman/tools/'
 tool = 'muscle3.8.31_i86linux64'

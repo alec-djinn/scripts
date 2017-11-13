@@ -5,7 +5,7 @@ from __future__ import print_function, division
 from subprocess import call
 
 
-NAP_ROOT = '/hpc/cog_bioinf/kloosterman/tools/NAP_v2.1'
+NAP_ROOT = '/hpc/cog_bioinf/kloosterman/tools/NAP_v3.1'
 ENV    = 'source {}/env/bin/activate'.format(NAP_ROOT)
 NAP    = '{}/nap.py'.format(NAP_ROOT)
 INPUT  = '/hpc/cog_bioinf/kloosterman/raw_data/NANOPORE/RCA/AlessioRCAx1'
