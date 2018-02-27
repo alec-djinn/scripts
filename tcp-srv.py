@@ -1,5 +1,7 @@
-#apt-get update -y && apt-get upgrade -y && apt-get dist-upgrade -y
+
 import socketserver
+import tcplib
+
 
 class MyTCPHandler(socketserver.StreamRequestHandler):
 
@@ -8,10 +10,17 @@ class MyTCPHandler(socketserver.StreamRequestHandler):
         # we can now use e.g. readline() instead of raw recv() calls
         self.data = self.rfile.readline().strip()
         print('{} wrote:'.format(self.client_address[0]))
-        print(self.data)
+        parts = self.data.split(' ')
+        cliIP = parts[0]
+        data = ' '.join(parts[1:])
+        answer = None
+
+        if data == 'connection test':
+            answer = 'connection test OK'
+
         # Likewise, self.wfile is a file-like object used to write back
         # to the client
-        self.wfile.write(self.data.upper())
+        self.wfile.write(answer)
 
 
 
