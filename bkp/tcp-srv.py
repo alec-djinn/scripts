@@ -5,7 +5,6 @@ import os
 import sys
 import time
 import random
-import pickle
 
 
 ver = '0.1'
@@ -25,40 +24,33 @@ class MyTCPHandler(socketserver.StreamRequestHandler):
         # self.rfile is a file-like object created by the handler;
         # we can now use e.g. readline() instead of raw recv() calls
         self.data = self.rfile.readline().decode('utf-8').strip()
-        print(self.data)
-        self.data = pickle.loads(self.data.encode())
-        print(self.data)
-
         parts = self.data.split(' ')
         cliIP = parts[0]
         data = ' '.join(parts[1:])
         msg = 'OK'
-        print(f'{self.client_address[0]}@{cliIP} wrote: {self.data[:50]}...')
+        print(f'{self.client_address[0]}@{cliIP} wrote: {data[:50]}...')
 
         
         if data == 'connection test':
             msg = 'connection established, all OK'
-
 
         elif data.strip() == 'restart!':
             msg = 'restarting server...'
             self.answer(msg)
             os.execl(sys.executable, *([sys.executable]+sys.argv))
 
-
         elif parts[1] == 'txt':
             filename = parts[2]
-            content = ' '.join(parts[3:])
-            with open(filename, 'w') as out:
-                out.write(content)
+            with open('new_file.txt', 'w') as out:
+                for line in self.data.split('_*_')[1:]:
+                    out.write(f'{line}\n')
             msg = 'file uploaded'
-
 
         elif parts[1] == 'me':
             filename = parts[2]
             with open(filename, 'w') as out:
-                content = ' '.join(parts[3:])
-                out.write(content)
+                for line in self.data.split('_*_')[1:]:
+                    out.write(f'{line}\n')
             msg = 'file uploaded'
 
         self.answer(msg)
