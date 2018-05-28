@@ -1,34 +1,44 @@
 import sys
 import socket
+import random
+import pickle
 
-
+ver = '0.1'
 
 ## Helper functions
-def getMyIP():
-    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    s.connect(("8.8.8.8", 80))
-    myIP = s.getsockname()[0]
-    s.close()
-    return myIP
+def connect():
+    pass
 
 
+def sendFile(infile, socket):
+    while True:
+        conn, addr = socket.accept()     # Establish connection with client.
+        print('Got connection from', addr)
+        data = conn.recv(1024)
+        print('Server received', repr(data))
 
-## Commands
-def help(doc):
-    print(doc)
+        with open(infile,'rb') as f:
+            l = f.read(1024)
+            while (l):
+               conn.send(l)
+               print('Sent ',repr(l))
+               l = f.read(1024)
 
-def send(ip, port, data, myIP=getMyIP()):
-    received = None
-    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
-        # Connect to server and send data
-        sock.connect((HOST, PORT))
-        sock.sendall(bytes(f'{myIP} {data}\n', 'utf-8'))
-        # Receive data from the server and shut down
-        received = str(sock.recv(1024), 'utf-8')
-    print(f'Sent:     {data}')
-    print(f'Received: {received}')
+            print('Done sending')
+            conn.send('Thank you for connecting'.encode('utf-8'))
+            conn.close()
+    print('Server listening....')
 
-def test(ip, port, myIP):
-    data = 'connection test'
-    send(ip, port, data, myIP)
-    
+
+def receiveFile(outfile, socket):
+    with open(outfile, 'wb') as f:
+        print('file opened')
+        while True:
+            print('receiving data...')
+            data = socket.recv(1024)
+            print(f'{data}')
+            if not data:
+                break
+            # write data to a file
+            f.write(data)
+    print('file received')
