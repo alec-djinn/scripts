@@ -182,6 +182,9 @@ class Multipliers:
 
 
 dice_history = set()
+len_history = len(dice_history)
+initial_lives = 25
+lives = initial_lives #to be lost if the pattern repeat itslef too long
 class SmoothLife:
     def __init__(self, height, width):
         self.time_start= time.time()
@@ -204,6 +207,7 @@ class SmoothLife:
     def step(self):
         """Do timestep and return field"""
 
+        global dice_history, len_history, initial_lives, lives
         # To sum up neighbors, do kernel convolutions
         # by multiplying in the frequency domain
         # and converting back to spacial domain
@@ -248,16 +252,27 @@ class SmoothLife:
         #print('curr:', self.field)
         dice_cf = dice_coefficient(str(self.prevfield), str(self.field))
         
-        if dice_cf < 0.4:
-            print(f'{dice_cf}: low')
-            #sys.exit(0)
-        elif dice_cf > 0.80:
-            print(f'{dice_cf}: high')
-        else:
-            print(f'{dice_cf}: good')
+        # if dice_cf < 0.4:
+        #     print(f'{dice_cf}: low')
+        #     #sys.exit(0)
+        # elif dice_cf > 0.80:
+        #     print(f'{dice_cf}: high')
+        # else:
+        #     print(f'{dice_cf}: good')
 
+
+        len_history = len(dice_history)
         dice_history.add(round(dice_cf,4))
-        print(dice_history)
+
+        if len(dice_history) == len_history:
+            lives -= 1
+        else:
+            lives = initial_lives
+        if lives < 1:
+            print(f'out of lives :(')
+            sys.exit(0)
+
+        #print(dice_history)
             #sys.exit(0)
         #self.fieldset = set([])
         #print(f'starting fieldset: {self.fieldset}')
@@ -345,7 +360,7 @@ def show_animation():
     fig = plt.figure()
     # Nice color maps: viridis, plasma, gray, binary, seismic, gnuplot, prism
     im = plt.imshow(sl.field, animated=True,
-                    cmap=plt.get_cmap("seismic"), aspect="equal")
+                    cmap=plt.get_cmap("prism"), aspect="equal")
 
     respawn = 0
 
