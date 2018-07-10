@@ -26,9 +26,14 @@ Cool Rules:
             [0.3642724712098512, 0.40233950326429724, 0.04660547960838113, 0.7695233497620191, 0.2192274958064413, 0.6531165731309083]
             [0.4509868720045459, 0.5004244001867932, 0.17372361764237187, 0.36273881900671034, 0.8002984022230082, 0.2010005845781302]
             [0.5533554705476176, 0.5330770670318796, 0.3562917005220898, 0.9562295756514985, 0.3206018317092917, 0.7998314733699114]
-
-
-
+            [0.6706414924771618, 0.883280072207933, 0.0935371901595431, 0.8858800744607598, 0.9955499330903786, 0.900789185818679]
+            [0.22737225468579714, 0.4975014946400592, 0.18727198728692507, 0.2564502303255479, 0.42933917742594796, 0.8571137755174179]
+            [0.13124434809648577, 0.17058786488841982, 0.15795246698639143, 0.45280619070778294, 0.007173594318982568, 0.39308002181800283]
+            [0.03318984223163979, 0.28815350738467005, 0.4570162550700303, 0.10563227013224996, 0.20762955368935476, 0.44019181885307057]
+            [0.28770697541081736, 0.6556608008645675, 0.122514834787945, 0.7846121022866579, 0.5556044877713902, 0.13629422878163033]
+            [0.14024752187613998, 0.8570012312818681, 0.04289805847464945, 0.21086237930545193, 0.3964383767856269, 0.7682168308176195]
+            [0.21297537592222948, 0.41561118886556303, 0.7935607488931523, 0.9591973265222938, 0.27779740418389454, 0.5080827362623966]
+            [0.29689579371566166, 0.6968063273903418, 0.1870047816778717, 0.7465211920745942, 0.3128492575772742, 0.6476265388441299]
 """
 
 import math
@@ -181,10 +186,7 @@ class Multipliers:
         self.N = np.fft.fft2(annulus)
 
 
-dice_history = set()
-len_history = len(dice_history)
-initial_lives = 25
-lives = initial_lives #to be lost if the pattern repeat itslef too long
+
 class SmoothLife:
     def __init__(self, height, width):
         self.time_start= time.time()
@@ -269,7 +271,7 @@ class SmoothLife:
         else:
             lives = initial_lives
         if lives < 1:
-            print(f'out of lives :(')
+            print(f'WARNING: population got stuck in a loop after {round(time.time()-self.time_start,2)} seconds')
             sys.exit(0)
 
         #print(dice_history)
@@ -279,7 +281,7 @@ class SmoothLife:
         #self.prevfield = deepcopy(self.fieldset)
         #print(f'starting prevfield: {self.prevfield}')
 
-        if not np.array_equal(self.prevfield, self.field) and time.time() - self.time_start < 30:
+        if not np.array_equal(self.prevfield, self.field) and time.time() - self.time_start < 120:
             # #quit if the same pattern is repeated over and over
             # past_len = len(self.fieldset)
             # self.fieldset.add(str(self.prevfield))
@@ -305,7 +307,7 @@ class SmoothLife:
             return self.field
         else:
             print(f'WARNING: population died after {round(time.time()-self.time_start,2)} seconds')
-            sys.exit()
+            sys.exit(0)
 
 
 
@@ -362,8 +364,6 @@ def show_animation():
     im = plt.imshow(sl.field, animated=True,
                     cmap=plt.get_cmap("prism"), aspect="equal")
 
-    respawn = 0
-
     def animate(*args):
         try:
             im.set_array(sl.step())
@@ -371,12 +371,9 @@ def show_animation():
         except KeyboardInterrupt:
             sys.exit(0)
 
-    if not respawn:
-        ani = animation.FuncAnimation(fig, animate, interval=60, blit=True)
-        plt.show()
-    else:
-        plt.close('All')
-        return False
+    ani = animation.FuncAnimation(fig, animate, interval=60, blit=True)
+    plt.show()
+
 
 
 
@@ -411,6 +408,10 @@ def save_animation():
 
 
 if __name__ == '__main__':
+    dice_history = set()
+    len_history = len(dice_history)
+    initial_lives = 25
+    lives = initial_lives #to be lost if the pattern repeat itslef too long
     show_animation()
 
 
